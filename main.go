@@ -158,12 +158,22 @@ func setupRoutes(app *fiber.App) {
 // @title Ortelius v11 Domain Microservice
 // @version 11.0.0
 // @description RestAPI for the Domain Object
+// @description ![Release](https://img.shields.io/github/v/release/ortelius/scec-validate-provenance?sort=semver)
+// @description ![license](https://img.shields.io/github/license/ortelius/scec-validate-provenance)
+// @description
+// @description ![Build](https://img.shields.io/github/actions/workflow/status/ortelius/scec-validate-provenance/build-push-chart.yml)
+// @description [![MegaLinter](https://github.com/ortelius/scec-validate-provenance/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/ortelius/scec-validate-provenance/actions?query=workflow%3AMegaLinter+branch%3Amain)
+// @description ![CodeQL](https://github.com/ortelius/scec-validate-provenance/workflows/CodeQL/badge.svg)
+// @description [![OpenSSF-Scorecard](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-validate-provenance/badge)](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-validate-provenance)
+// @description
+// @description ![Discord](https://img.shields.io/discord/722468819091849316)
+
 // @termsOfService http://swagger.io/terms/
 // @contact.name Ortelius Google Group
 // @contact.email ortelius-dev@googlegroups.com
 // @license.name Apache 2.0
 // @license.url http://www.apache.org/licenses/LICENSE-2.0.html
-// @host localhost:3000
+// @host localhost:8080
 // @BasePath /msapi/domain
 func main() {
 	port := ":" + database.GetEnvDefault("MS_POST", "8080")
