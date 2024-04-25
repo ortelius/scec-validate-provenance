@@ -15,11 +15,11 @@ RestAPI for the Domain Object
 
 ## Path Table
 
-| Method | Path | Description |
-| --- | --- | --- |
-| GET | [/msapi/domain](#getmsapidomain) | Get a List of Domains |
-| POST | [/msapi/domain](#postmsapidomain) | Create a Domain |
-| GET | [/msapi/domain/:key](#getmsapidomainkey) | Get a Domain |
+| Method | Path                                     | Description           |
+|--------|------------------------------------------|-----------------------|
+| GET    | [/msapi/domain](#getmsapidomain)         | Get a List of Domains |
+| POST   | [/msapi/domain](#postmsapidomain)        | Create a Domain       |
+| GET    | [/msapi/domain/:key](#getmsapidomainkey) | Get a Domain          |
 
 ## Reference Table
 
@@ -32,10 +32,10 @@ RestAPI for the Domain Object
 
 ### [GET]/msapi/domain
 
-- Summary  
+- Summary
 Get a List of Domains
 
-- Description  
+- Description
 Get a list of domains for the user.
 
 #### Responses
@@ -46,10 +46,10 @@ Get a list of domains for the user.
 
 ### [POST]/msapi/domain
 
-- Summary  
+- Summary
 Create a Domain
 
-- Description  
+- Description
 Create a new Domain and persist it
 
 #### Responses
@@ -60,10 +60,10 @@ Create a new Domain and persist it
 
 ### [GET]/msapi/domain/:key
 
-- Summary  
+- Summary
 Get a Domain
 
-- Description  
+- Description
 Get a domain based on the _key or name.
 
 #### Responses
