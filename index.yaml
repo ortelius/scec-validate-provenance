@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   scec-validate-provenance:
   - apiVersion: v2
+    appVersion: 11.0.542
+    created: "2024-05-13T18:08:58.380707588Z"
+    description: Domain microservice
+    digest: ed964f42875242af9086a4b9dbc068bc62c72620b94e8689f976c95034ce931c
+    icon: https://ortelius.github.io/ortelius-charts/logo.png
+    name: scec-validate-provenance
+    type: application
+    urls:
+    - https://github.com/ortelius/scec-validate-provenance/releases/download/scec-validate-provenance-11.0.542/scec-validate-provenance-11.0.542.tgz
+    version: 11.0.542
+  - apiVersion: v2
     appVersion: 11.0.540
     created: "2024-05-11T02:10:03.329700792Z"
     description: Domain microservice
@@ -2432,4 +2443,4 @@ entries:
     urls:
     - https://github.com/ortelius/scec-validate-provenance/releases/download/scec-validate-provenance-11.0.5/scec-validate-provenance-11.0.5.tgz
     version: 11.0.5
-generated: "2024-05-11T02:10:03.329392004Z"
+generated: "2024-05-13T18:08:58.380406287Z"
