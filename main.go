@@ -159,7 +159,7 @@ func setupRoutes(app *fiber.App) {
 // @version 11.0.0
 // @description RestAPI for the Domain Object
 // @description ![Release](https://img.shields.io/github/v/release/ortelius/scec-validate-provenance?sort=semver)
-// @description ![license](https://img.shields.io/github/license/ortelius/scec-validate-provenance)
+// @description ![license](https://img.shields.io/github/license/ortelius/.github)
 // @description
 // @description ![Build](https://img.shields.io/github/actions/workflow/status/ortelius/scec-validate-provenance/build-push-chart.yml)
 // @description [![MegaLinter](https://github.com/ortelius/scec-validate-provenance/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/ortelius/scec-validate-provenance/actions?query=workflow%3AMegaLinter+branch%3Amain)
